@@ -1,13 +1,18 @@
 
+body{
+    font-family: 'Playfair Display', serif;
+}
 
 h1 {
-    color: rgb(0, 55, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(27, 196, 247), rgb(120, 53, 228));
     text-align: center;
 }
 
 img {
     border: solid blue 1rem;
+    box-shadow: 10px 10px 20px #000;
+    border-radius: 50px 50px 0px 50px;
 }
 
 h2 {
@@ -36,4 +41,12 @@ ul {
 li {
     color: #fff;
     padding: 5px;
+}
+
+a{
+    color: #fff;
+}
+
+footer{
+    background: linear-gradient(to bottom, rgb(27, 196, 247), rgb(120, 53, 228));
 }
